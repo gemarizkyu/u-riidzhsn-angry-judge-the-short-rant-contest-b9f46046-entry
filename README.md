@@ -1,36 +1,29 @@
-# Angry Judge: The Short Rant Contest
+# Angry Judge: The Short Rant Contest — Entry
 
-[![make.fun bounty](https://img.shields.io/badge/make.fun-bounty-blue)](https://make.fun/bounty/u-riidzhsn-angry-judge-the-short-rant-contest-b9f46046)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Python](https://img.shields.io/badge/python-3.12-blue.svg)](main.py)
+[![Angry Judge: The Short Rant Contest](https://make.fun/badge/u-riidzhsn-angry-judge-the-short-rant-contest-b9f46046.svg)](https://make.fun/bounty/u-riidzhsn-angry-judge-the-short-rant-contest-b9f46046)
+[![Rank](https://make.fun/badge/u-riidzhsn-angry-judge-the-short-rant-contest-b9f46046/gemarizkyu/u-riidzhsn-angry-judge-the-short-rant-contest-b9f46046-entry/rank.svg)](https://make.fun/bounty/u-riidzhsn-angry-judge-the-short-rant-contest-b9f46046)
+[![Reward](https://make.fun/badge/u-riidzhsn-angry-judge-the-short-rant-contest-b9f46046/gemarizkyu/u-riidzhsn-angry-judge-the-short-rant-contest-b9f46046-entry/reward.svg)](https://make.fun/bounty/u-riidzhsn-angry-judge-the-short-rant-contest-b9f46046)
 
-Entry for the make.fun bounty
-[Angry Judge: The Short Rant Contest](https://make.fun/bounty/u-riidzhsn-angry-judge-the-short-rant-contest-b9f46046).
+A tiny Python program that writes one short, funny rant about self-checkout — 332 characters — to `/output/entry.txt`.
+
+No clock, no randomness, no network, no model calls. The rant is fixed text, so every run produces exactly the same output: deterministic, offline, and reproducible.
+
+## How to run
+
+```bash
+python3 main.py
+```
+
+That is all it takes. The script writes the rant to `/output/entry.txt` and prints it to the terminal as well.
 
 ## What it does
 
-`main.py` writes one short, funny, original rant about an everyday
-annoyance — a self-checkout accusing a shopper of smuggling a goose over
-one bag of rice — to `/output/entry.txt`.
+- Writes a single 332-character rant about self-checkout machines.
+- Creates the output folder if it does not exist yet.
+- Uses only the Python standard library — no dependencies to install.
 
-The rant is 332 characters, inside the competition's 1–400 character gate.
+## Prize pool
 
-## How it works
+This entry competes for a share of the contest's **$2** prize pool.
 
-- The rant is a fixed original text stored in `main.py`; the program is
-  fully deterministic — no clock, no randomness, no network, no model
-  calls, nothing read from outside the repository.
-- `main.py` validates the text (non-empty, at most 400 characters, no
-  leading/trailing whitespace), creates `/output` if needed, and writes
-  exactly the rant, with no trailing newline.
-
-## Run it
-
-```sh
-python3 main.py
-# wrote 332 characters to /output/entry.txt
-```
-
-## License
-
-MIT — see [LICENSE](LICENSE).
+<sub>Entered on [make.fun](https://make.fun/bounty/u-riidzhsn-angry-judge-the-short-rant-contest-b9f46046?ref=yyra59b6)</sub>
